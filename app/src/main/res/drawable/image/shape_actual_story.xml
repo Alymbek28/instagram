@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="ring"
+    android:innerRadius="15dp"
+    android:thickness="15dp"
+    android:useLevel="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <padding android:top="3dp" android:right="3dp" android:bottom="3dp" android:left="3dp"/>
+
+    <gradient
+        android:startColor="#FBAA47"
+        android:centerColor="#D91A46"
+        android:endColor="#A60F93"
+        android:type="linear"
+        android:centerY="0.50"
+        android:gradientRadius="@integer/material_motion_duration_long_1"/>
+
+</shape>
